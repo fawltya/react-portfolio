@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "title": "The Court House",
+      "image":
+        "https://courthousebangor.com/",
+      "description": "Events based website with custom calendar",
+      "areas": "A Pineapple Under the Sea"
+    },
+    {
+      "id": 2,
+      "title": "Mr. Krabs",
+      "image":
+        "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+      "image-alt-tag":
+        "Picture of The Court House website which shows an old victorian building",
+      "description": "Events based website with custom calendar",
+      "areas": "A Giant Anchor"
+    },
+    {
+      "id": 3,
+      "title": "Squidward",
+      "image":
+        "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+      "description": "Cashier",
+      "areas": "An Easter Island Head"
+    }
+  ]
+  
+
