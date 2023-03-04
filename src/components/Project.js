@@ -1,32 +1,32 @@
 import React from "react";
 
 function Project(props) {
-  const { title, image, imageAlt, ariaLabel, description, areas, link } = props;
   return (
-    <div className="card col-12 col-md-6 col-lg-6 col-xl-4 bg-secondary p-3 m-lg-2 text-light">
-      <div className="d-flex justify-content-center align-items-center">
-        <a href={props.link}>
-          <img
-            src={props.image}
-            className="card-img-top"
-            alt={props.imageAlt}
-          />
+    <div className="bg-white shadow rounded-lg">
+      <a href={props.link} className="block overflow-hidden">
+        <img
+          src={props.image}
+          alt={props.imageAlt}
+          aria-label={props.ariaLabel}
+          onMouseEnter={props.onMouseEnter}
+          onMouseLeave={props.onMouseLeave}
+          className=""
+        />
+      </a>
+      <div className="p-4">
+        <h4 className="text-lg font-bold">{props.title}</h4>
+        <p className="text-gray-600 mt-2">{props.description}</p>
+      </div>
+      <div className="px-4 pb-4 pt-2 flex justify-between items-center">
+        <p className="text-gray-500 text-sm">{props.areas}</p>
+        <a
+          href={props.link}
+          target="_blank"
+          className="px-4 py-2 bg-orange-500 text-white font-medium rounded-full hover:bg-orange-600 transition-all duration-300 ease-out"
+        >
+          Visit
         </a>
       </div>
-      <div className="card-body pl-0">
-        <h4 className="card-title">{props.title}</h4>
-        <p className="card-text">{props.description}</p>
-      </div>
-      <ul className="list-group list-group-flush row d-flex flex-column flex-xl-row justify-items-center align-items-center justify-content-between">
-        <li className="list-group-item bg-primary col-12 col-xl-6 small">
-          {props.areas}
-        </li>
-        <li className="list-group-item bg-primary bg-success col-12 col-xl-6">
-          <a href={props.link} target="_blank" className="card-link text-white">
-            Website Link
-          </a>
-        </li>
-      </ul>
     </div>
   );
 }

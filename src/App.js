@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <div>
+      <div className="bg-slate-900">
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />} />
