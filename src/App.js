@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <div className="bg-slate-900">
+      <div className="bg-gray-600">
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/projects" element={<Projects />} />
