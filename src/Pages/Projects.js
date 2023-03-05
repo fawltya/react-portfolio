@@ -47,8 +47,8 @@ function Projects() {
   const [hovered, setHovered] = useState(previousWork.map(() => false));
 
   return (
-    <div className="flex flex-col items-center p-5">
-      <h1 className="text-primary-900 dark:text-primary-200 pt-10 fluid-4xl">
+    <div className="flex flex-col items-center p-5 ">
+      <h1 className="text-primary-900 dark:text-primary-100 pt-10 fluid-4xl">
         Past Projects
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-5 gap-5 lg:gap-8">

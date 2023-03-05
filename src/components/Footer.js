@@ -7,11 +7,11 @@ function Footer() {
 
   return (
     <div className="bg-alt-200 dark:bg-alt-900 flex flex-row items-center pl-10 justify-between pr-10 pt-5 pb-5">
-      <p className="self-center w-25 mb-[-5px] text-sm pr-10 text-primary-700 dark:text-primary-300">
-        Website built with ❤️ by Seamus
+      <p className="self-center w-25 mb-[-5px] text-sm text-primary-700 dark:text-primary-300">
+        Built with React & Tailwind
       </p>
       <div className="flex flex-row items-center w-25">
-        <ul className="flex flex-row nav nav-tabs gap-10">
+        <ul className="flex flex-row gap-10">
           <li>
             <SocialIcon
               url="https://github.com/fawltya"
@@ -31,7 +31,7 @@ function Footer() {
       <div>
         <a
           href="mailto:seamus@designbarn.co.uk"
-          className="w-25 self-center justify-end mb-[-5px] text-sm pr-10 text-primary-700 dark:text-primary-300"
+          className="w-25 self-center justify-end mb-[-5px] text-sm text-primary-700 dark:text-primary-300"
         >
           seamus@designbarn.co.uk
         </a>
