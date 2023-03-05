@@ -3,7 +3,7 @@ import React from "react";
 function Project(props) {
   return (
     <div className="dark:bg-gray-900 shadow rounded-lg text-white">
-      <a href={props.link} className="block overflow-hidden">
+      <a href={props.link} target="_blank block overflow-hidden">
         <img
           src={props.image}
           alt={props.imageAlt}
@@ -14,7 +14,7 @@ function Project(props) {
         />
       </a>
       <div className="p-4">
-        <a href={props.link}>
+        <a href={props.link} target="_blank">
           <h4 className="text-lg font-bold">{props.title}</h4>
         </a>
         <p className="text-gray-300 mt-2">{props.description}</p>

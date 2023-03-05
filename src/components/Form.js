@@ -3,7 +3,11 @@ const Form = () => {
   return (
     <div className="flex flex-col">
       <div className="flex justify-center items-center">
-        <form action="" method="POST" className="flex flex-col p-2">
+        <form
+          action="https://getform.io/f/82c06703-a887-46ed-8d0c-0fa0d2e93fdb"
+          method="POST"
+          className="flex flex-col p-2"
+        >
           <input
             type="text"
             name="name"
@@ -21,7 +25,7 @@ const Form = () => {
             placeholder="Type your message here."
             className="p-1"
           ></textarea>
-          <button>Submit</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
     </div>
