@@ -1,32 +1,43 @@
 import React from "react";
 
 function Project(props) {
-  const { title, image, imageAlt, ariaLabel, description, areas, link } = props;
   return (
-    <div className="card col-12 col-md-6 col-lg-6 col-xl-4 bg-secondary p-3 m-lg-2 text-light">
-      <div className="d-flex justify-content-center align-items-center">
-        <a href={props.link}>
-          <img
-            src={props.image}
-            className="card-img-top"
-            alt={props.imageAlt}
-          />
-        </a>
-      </div>
-      <div className="card-body pl-0">
-        <h4 className="card-title">{props.title}</h4>
-        <p className="card-text">{props.description}</p>
-      </div>
-      <ul className="list-group list-group-flush row d-flex flex-column flex-xl-row justify-items-center align-items-center justify-content-between">
-        <li className="list-group-item bg-primary col-12 col-xl-6 small">
-          {props.areas}
-        </li>
-        <li className="list-group-item bg-primary bg-success col-12 col-xl-6">
-          <a href={props.link} target="_blank" className="card-link text-white">
-            Website Link
+    <div className=" dark:bg-secondary-700 bg-secondary-100 shadow rounded-lg dark:text-secondary-100 text-secondary-800">
+      <a href={props.link} target="_blank block overflow-hidden">
+        <img
+          src={props.image}
+          alt={props.imageAlt}
+          aria-label={props.ariaLabel}
+          onMouseEnter={props.onMouseEnter}
+          onMouseLeave={props.onMouseLeave}
+          className=""
+        />
+      </a>
+      <div className="px-4">
+        <div className="pt-5">
+          <a href={props.link} target="_blank">
+            <h4 className="text-lg font-bold">{props.title}</h4>
           </a>
-        </li>
-      </ul>
+          <p className="dark:text-secondary-300 text-secondary-600">
+            {props.description}
+          </p>
+        </div>
+        <div className="justify-center w-100 py-3">
+          <hr className="dark:border-secondary-300 border-secondary-700 w-100 " />
+        </div>
+        <div className=" pb-3 flex justify-between items-center">
+          <p className="dark:text-secondary-200 text-secondary-700 text-xs">
+            {props.areas}
+          </p>
+          <a
+            href={props.link}
+            target="_blank"
+            className="px-4 py-2 bg-secondary-500 hover:bg-secondary-400 text-secondary-100 font-medium rounded-lg hover:bg-navy-600 transition-all duration-300 ease-out"
+          >
+            Visit
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

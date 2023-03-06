@@ -1,13 +1,78 @@
+/* Load custom fonts */
+@font-face {
+  font-family: "ExensaGrotesk-Black";
+  src: url("./assets/font/ExensaGrotesk-Black.otf");
+}
+@font-face {
+  font-family: "ExensaGrotesk-Bold";
+  src: url("./assets/font/ExensaGrotesk-Bold.otf");
+}
+@font-face {
+  font-family: "ExensaGrotesk-Regular";
+  src: url("./assets/font/ExensaGrotesk-Regular.otf");
+}
+@font-face {
+  font-family: "retro-chimps";
+  src: url("./assets/font/retro-chimps.otf");
+}
+@font-face {
+  font-family: "ca-spotnik";
+  src: url("./assets/font/CASpotnik-Medium.otf");
+}
+@font-face {
+  font-family: "ca-spotnik-bold";
+  src: url("./assets/font/CASpotnik-ExtraBold.otf");
+}
+
+/* Apply base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customize base styles */
+@layer base {
+  h1 {
+    @apply fluid-4xl;
+    font-family: "retro-chimps";
+  }
+  h2 {
+    @apply fluid-3xl;
+    font-family: "retro-chimps";
+  }
+  h3 {
+    @apply fluid-2xl;
+    font-family: "ca-spotnik-bold";
+  }
+  h4 {
+    @apply fluid-xl;
+    font-family: "ca-spotnik-bold";
+  }
+  h5 {
+    @apply fluid-lg;
+    font-family: "ca-spotnik-bold";
+  }
+  p {
+    @apply fluid-base;
+    font-family: "ca-spotnik";
+  }
+  a {
+    @apply fluid-base;
+    font-family: "ca-spotnik-bold";
+  }
+}
+
+/* Apply styles to specific elements */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Set global styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
