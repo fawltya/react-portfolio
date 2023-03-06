@@ -2,34 +2,12 @@ import React from "react";
 
 function Skills(props) {
   return (
-    <table class="table-auto">
-      <thead>
-        <tr>
-          <th>Web Development</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>{props.name}</td>
-          <td></td>
-        </tr>
-      </tbody>
-      <thead>
-        <tr>
-          <th>Always learning</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>The Sliding Mr. Bones (Next Stop, Pottersville)</td>
-          <td>Malcolm Lockyer</td>
-        </tr>
-        <tr>
-          <td>Witchy Woman</td>
-          <td>The Eagles</td>
-        </tr>
-      </tbody>
-    </table>
+    <tr className=" border-2 border-primary-800 dark:border-primary-100 rounded-lg">
+      <td className="px-3 py-3">{props.name}</td>
+      <td>
+        <img src={props.icon} width="30px" className="mr-3" />
+      </td>
+    </tr>
   );
 }
 

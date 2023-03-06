@@ -6,7 +6,43 @@
         "https://developer.mozilla.org/en-US/docs/Web/HTML",
       "color": "#440002",
       "currentlyLearning": "false",
-      "icon": "html"
+      "icon": "../assets/images/icons/html-icon.svg"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "link":
+        "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "color": "#440002",
+      "currentlyLearning": "false",
+      "icon": "../assets/images/icons/css-icon.svg"
+    },
+    {
+      "id": 3,
+      "name": "Javascript",
+      "link":
+        "https://developer.mozilla.org/en-US/docs/Web/javascript",
+      "color": "#440002",
+      "currentlyLearning": "false",
+      "icon": "../assets/images/icons/js-icon.svg"
+    },
+    {
+      "id": 4,
+      "name": "React",
+      "link":
+        "https://developer.mozilla.org/en-US/docs/Web/javascript",
+      "color": "#440002",
+      "currentlyLearning": "true",
+      "icon": "../assets/images/icons/react-js-icon.svg"
+    },
+    {
+      "id": 5,
+      "name": "Tailwind",
+      "link":
+        "https://developer.mozilla.org/en-US/docs/Web/javascript",
+      "color": "#440002",
+      "currentlyLearning": "true",
+      "icon": "../assets/images/icons/tailwind-css-icon.svg"
     }
   ]
   

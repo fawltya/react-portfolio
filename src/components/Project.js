@@ -32,7 +32,7 @@ function Project(props) {
           <a
             href={props.link}
             target="_blank"
-            className="px-4 py-2 bg-secondary-500 hover:bg-secondary-400 text-white font-medium rounded-lg hover:bg-navy-600 transition-all duration-300 ease-out"
+            className="px-4 py-2 bg-secondary-500 hover:bg-secondary-400 text-secondary-100 font-medium rounded-lg hover:bg-navy-600 transition-all duration-300 ease-out"
           >
             Visit
           </a>

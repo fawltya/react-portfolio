@@ -4,7 +4,7 @@ import Switcher from "./Switcher";
 
 function NavTabs() {
   return (
-    <div className="bg-alt-200 dark:bg-alt-900 flex flex-row justify-between items-center pl-10 pr-10 pt-5 pb-5">
+    <div className="bg-alt-200 dark:bg-alt-900 flex flex-row justify-between items-center pl-10 pr-10 pt-5 pb-5 h-[100px]">
       <div className="flex flex-row items-center">
         <h2 className="self-center mb-[-5px] pr-10 text-primary-700 dark:text-primary-300">
           Seamus Barnett

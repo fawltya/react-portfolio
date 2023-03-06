@@ -2,10 +2,23 @@ import React from "react";
 import seamus from "../assets/images/seamus.jpg";
 import Skills from "../components/Skills";
 import skills from "../utils/skills.json";
+import htmlLogo from "../assets/images/icons/html-icon.svg";
+import cssLogo from "../assets/images/icons/css-icon.svg";
+import jsLogo from "../assets/images/icons/js-icon.svg";
+import reactLogo from "../assets/images/icons/react-js-icon.svg";
+import tailwindLogo from "../assets/images/icons/tailwind-css-icon.svg";
+
+const logos = {
+  HTML: htmlLogo,
+  CSS: cssLogo,
+  Javascript: jsLogo,
+  React: reactLogo,
+  Tailwind: tailwindLogo,
+};
 
 function About() {
   return (
-    <div className="flex flex-row p-10 gap-10 px-20">
+    <div className="flex flex-row p-10 gap-10 px-20 min-h-[calc(100vh-180px)] align-middle justify-center items-center">
       <div className="flex flex-col w-3/4">
         <div className="flex flex-row items-end gap-5 ">
           <img src={seamus} className="object-cover w-20 h-20 rounded-full" />
@@ -34,15 +47,30 @@ function About() {
             front-end web dev course with EdX.
           </p>
 
-          <button className="font-caSpotnikBold w-fit my-5 px-4 py-2 bg-secondary-500 hover:bg-secondary-400 text-white font-medium rounded-lg hover:bg-navy-600 transition-all duration-300 ease-out">
+          <button className="font-caSpotnikBold w-fit my-5 px-4 py-2 bg-secondary-500 hover:bg-secondary-400 text-secondary-100 font-medium rounded-lg hover:bg-navy-600 transition-all duration-300 ease-out">
             Work with me
           </button>
         </div>
       </div>
       <div className="w-1/4">
-        {skills.map((skill) => {
-          return <Skills key={skill.id} name={skill.name} icon={skill.icon} />;
-        })}
+        <table class="table-auto font-caSpotnik text-2xl pr-2 dark:text-primary-100 text-primary-800">
+          <thead>
+            <tr>
+              <th>Languages</th>
+            </tr>
+          </thead>
+          <tbody>
+            {skills.map((skill) => {
+              return (
+                <Skills
+                  key={skill.id}
+                  name={skill.name}
+                  icon={logos[skill.name]}
+                />
+              );
+            })}
+          </tbody>
+        </table>
       </div>
     </div>
   );
