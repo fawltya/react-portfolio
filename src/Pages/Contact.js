@@ -4,14 +4,13 @@ import { SocialIcon } from "react-social-icons";
 
 function Contact() {
   return (
-    <div className="flex justify-center min-h-[calc(100vh-180px)] flex-col p-10 gap-10 px-20">
-      <h3 className="flex justify-center items-center text-primary-900 dark:text-primary-100">
+    <div className="flex justify-center min-h-[calc(100vh-180px)] flex-col p-10 md:gap-5 md:px-20">
+      <h1 className="flex justify-center items-center fluid-3xl text-primary-900 dark:text-primary-100">
         Contact Me
-      </h3>
-
-      <div className="flex flex-row justify-center items-stretch">
+      </h1>
+      <div className="flex flex-col md:flex-row justify-center items-stretch md:gap-5">
         <Form />
-        <div className="flex flex-col justify-between mt-3 mb-2">
+        <div className="flex flex-row md:flex-col md:justify-around justify-center mt-3 mb-2">
           <SocialIcon
             url="https://github.com/fawltya"
             className="fill-alt-700 dark:fill-alt-200 hover:fill-alt-500 dark:hover:fill-alt-100"
