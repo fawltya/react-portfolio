@@ -3,7 +3,7 @@ const Form = () => {
     <div className="flex flex-col ">
       <div className="flex justify-center items-center">
         <form
-          action="https://getform.io/f/82c06703-a887-46ed-8d0c-0fa0d2e93fdb"
+          action="https://getform.io/f/82c06703-a887-46ed-8d0c-0fa0d2e93fdb" // sends submission to getform which emails me.
           method="POST"
           className="flex flex-col p-2 w-96 font-caSpotnik"
         >

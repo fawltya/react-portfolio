@@ -66,9 +66,7 @@ function About() {
         </div>
       </div>
       <div className=" flex flex-col justify-center items-center lg:w-1/3">
-        <h4 className="pb-5 dark:text-primary-100 text-primary-800">
-          Languages
-        </h4>
+        <h4 className="pb-5 dark:text-primary-100 text-primary-800">Skills</h4>
         <table class="font-caSpotnik w-96 text-2xl pr-2 dark:text-primary-100 text-primary-800">
           <tbody className="text-sm ">
             {skills.map((skill) => {

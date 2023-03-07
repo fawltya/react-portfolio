@@ -6,7 +6,8 @@
         "https://developer.mozilla.org/en-US/docs/Web/HTML",
       "color": "#440002",
       "currentlyLearning": "false",
-      "icon": "../assets/images/icons/html-icon.svg"
+      "icon": "../assets/images/icons/html-icon.svg",
+      "type": "language"
     },
     {
       "id": 2,
@@ -15,7 +16,9 @@
         "https://developer.mozilla.org/en-US/docs/Web/CSS",
       "color": "#440002",
       "currentlyLearning": "false",
-      "icon": "../assets/images/icons/css-icon.svg"
+      "icon": "../assets/images/icons/css-icon.svg",
+      "type": "language"
+
     },
     {
       "id": 3,
@@ -24,7 +27,8 @@
         "https://developer.mozilla.org/en-US/docs/Web/javascript",
       "color": "#440002",
       "currentlyLearning": "false",
-      "icon": "../assets/images/icons/js-icon.svg"
+      "icon": "../assets/images/icons/js-icon.svg",
+      "type": "language"
     },
     {
       "id": 4,
@@ -33,7 +37,8 @@
         "https://developer.mozilla.org/en-US/docs/Web/javascript",
       "color": "#440002",
       "currentlyLearning": "true",
-      "icon": "../assets/images/icons/react-js-icon.svg"
+      "icon": "../assets/images/icons/react-js-icon.svg",
+      "type": "framework-library-cms"
     },
     {
       "id": 5,
@@ -42,7 +47,8 @@
         "https://developer.mozilla.org/en-US/docs/Web/javascript",
       "color": "#440002",
       "currentlyLearning": "true",
-      "icon": "../assets/images/icons/tailwind-css-icon.svg"
+      "icon": "../assets/images/icons/tailwind-css-icon.svg",
+      "type": "framework"
     }
   ]
   
