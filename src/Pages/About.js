@@ -35,21 +35,32 @@ function About() {
         </div>
         <div className="flex flex-col  dark:text-primary-200 text-primary-700">
           <p>
-            I started building websites in 2018 with the Open House Festival
-            site - which has had many revisions since!
+            I started designing websites in 2018, working in-house for the
+            amazing{" "}
+            <a href="https://courthousebangor.com" target="_blank">
+              Open House Festival/The Court House
+            </a>{" "}
+            who gave me the time and resources to learn. I still work for them
+            on their website, as well as graphic design, marketing and digital
+            development.
           </p>
           <br />
           <p>
-            When covid-19 hit I decided to make a go of it as a freelance
-            developer under the name as<strong> Design Barn </strong>
-            and recently I've become more interested in expanding my programming
-            language knowledge, studying Javascript, React, Node and more on a
-            front-end web dev course with EdX.
+            When covid-19 hit I took on some freelance clients and started
+            <strong> Design Barn</strong>, specialising in dynamic Wordpress
+            websites. I've been lucky to work on a wide range of projects and
+            I'm very grateful to the companies that trusted me to build their
+            sites.
           </p>
-
+          <br />
+          <p>
+            Recently I've become interested in expanding my programming language
+            knowledge, studying Javascript, React, Node + more on a front-end
+            web dev course with EdX.
+          </p>
           <a href="mailto:designbarn.co.uk" className="w-fit ">
             <button className="font-caSpotnikBold w-fit my-5 px-4 py-2 bg-secondary-500 hover:bg-secondary-400 text-secondary-100 rounded-lg hover:bg-navy-600 transition-all duration-300 ease-out">
-              Work with me
+              Say hello!
             </button>
           </a>
         </div>
