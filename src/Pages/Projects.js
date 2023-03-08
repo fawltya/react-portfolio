@@ -53,8 +53,8 @@ function Projects() {
         className="absolute inset-0 hero-after"
         style={{ backgroundImage: `url(${grainImage})` }}
       ></div>
-      <div className="flex flex-col items-center p-5 ">
-        <h1 className="text-primary-900 dark:text-primary-100 pt-10 fluid-3xl">
+      <div className="flex flex-col items-center p-5 bg-gradient-to-tr from-secondary-300 via-secondary-200 to-secondary-300 dark:from-secondary-800 dark:via-secondary-700 dark:to-secondary-900">
+        <h1 className="text-primary-900 dark:text-primary-100 pt-10 fluid-3xl ">
           Past Projects
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-5 gap-5 lg:gap-8">

@@ -72,7 +72,7 @@ body {
   position: fixed;
   opacity: 0.05;
   animation: animateGrain 8s steps(10) infinite;
-  pointer-events: none; /* Make the grain image "transparent" to mouse events */
+  pointer-events: none;
 }
 
 @keyframes animateGrain {

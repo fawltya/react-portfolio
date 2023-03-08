@@ -14,7 +14,7 @@ function App() {
       <div className="relative">
         <Header className="z-10" />
 
-        <div className="bg-primary-100 dark:bg-primary-900 relative z-0">
+        <div className="bg-primary-100 dark:bg-primary-900 relative z-0 bg-gradient-to-tr from-alt-300 via-primary-200 to-primary-300 dark:from-alt-800 dark:via-primary-700 dark:to-primary-900">
           <Routes>
             <Route path="/" element={<About className="z-10" />} />
             <Route path="/projects" element={<Projects className="z-10" />} />
