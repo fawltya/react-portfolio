@@ -29,7 +29,7 @@ function NavTabs() {
           </li>
           <li>
             <a href={CV} download="Seamus Barnett Web Dev Resume Jan 2023">
-              <button className="px-4 py-2 border-2 border-secondary-500 hover:bg-secondary-500 text-secondary-100 rounded-lg hover:bg-navy-600 transition-all duration-300 ease-out">
+              <button className="px-2 pt-0.5 pb-1 border-2 border-secondary-500 hover:bg-secondary-500 text-secondary-100 rounded-lg hover:bg-navy-600 transition-all duration-300 ease-out">
                 Resume
               </button>
             </a>
