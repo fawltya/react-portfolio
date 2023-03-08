@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Switcher from "./Switcher";
+import CV from "../assets/seamus-barnett-webdev-cv-jan-2023.pdf";
 
 function NavTabs() {
   return (
@@ -10,7 +11,7 @@ function NavTabs() {
         <h2 className="self-center lg:pr-10 pr-5 text-xl text-primary-700 dark:text-primary-300">
           Seamus Barnett
         </h2>
-        <ul className="flex flex-row nav nav-tabs text-primary-900 dark:text-primary-200 gap-5 lg:gap-10">
+        <ul className="flex flex-row nav nav-tabs items-center text-primary-900 dark:text-primary-200 gap-5 lg:gap-10">
           <li className="nav-item hover:text-primary-500 dark:hover:text-primary-100">
             <NavLink to="/" end>
               About
@@ -25,6 +26,13 @@ function NavTabs() {
             <NavLink to="/contact" end>
               Contact Me
             </NavLink>
+          </li>
+          <li>
+            <a href={CV} download="Seamus Barnett Web Dev Resume Jan 2023">
+              <button className="px-4 py-2 border-2 border-secondary-500 hover:bg-secondary-500 text-secondary-100 rounded-lg hover:bg-navy-600 transition-all duration-300 ease-out">
+                Resume
+              </button>
+            </a>
           </li>
         </ul>
       </div>

@@ -70,9 +70,9 @@ function About() {
         <h4 className="pb-5 dark:text-primary-100 text-primary-800">Skills</h4>
         <table class="font-caSpotnik w-96 text-2xl pr-2 dark:text-primary-100 text-primary-800">
           <tbody className="text-sm ">
-            // Table of skills - map skills.json to Skills component // Could
+            {/* Table of skills - map skills.json to Skills component // Could
             add more to this, like split into sections and add design skills too
-            (check skills.json)
+  (check skills.json)*/}
             {skills.map((skill) => {
               return (
                 <Skills
