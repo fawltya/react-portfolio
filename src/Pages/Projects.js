@@ -58,6 +58,7 @@ function Projects() {
               key={work.id}
               title={work.title}
               description={work.description}
+              // Change image to gif when hovering
               image={hovered[work.id] ? gif[work.image] : images[work.image]}
               imageAlt={work.imageAlt}
               ariaLabel={work.ariaLabel}

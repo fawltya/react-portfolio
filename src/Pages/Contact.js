@@ -15,6 +15,7 @@ function Contact() {
             url="https://github.com/fawltya"
             className="fill-alt-700 dark:fill-alt-200 hover:fill-alt-500 dark:hover:fill-alt-100"
             bgColor="inherit"
+            // Create shape by unequal h/w
             style={{ height: 60, width: 80 }}
             target="_blank"
           />

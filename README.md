@@ -3,7 +3,7 @@
 
 ## Description
 
-**[View my portfolio](https://react-portfolio-fawltya.vercel.app/projects)**
+**[View my portfolio](https://www.designbarn.co.uk)**
 
 My personal portfolio, with a few words on me, examples of previous projects, and contact info.
 

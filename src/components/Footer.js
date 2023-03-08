@@ -3,6 +3,7 @@ import { SocialIcon } from "react-social-icons";
 
 function Footer() {
   return (
+    // Height 80px - important to keep so that body size stays full height (body height is 100vh - header height - footer height)
     <div className="bg-alt-200 dark:bg-alt-900 flex flex-col md:flex-row items-center p-10 justify-between md:h-[80px]">
       <p className="self-center  mb-[-5px] text-sm text-primary-700 dark:text-primary-300">
         Built with React & Tailwind

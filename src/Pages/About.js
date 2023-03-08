@@ -18,6 +18,7 @@ const logos = {
 
 function About() {
   return (
+    // Makes min height of page 100vh - min-h-[calc(100vh-180px)] // 100vh - header height - footer height
     <div className="flex lg:flex-row flex-col p-10 lg:gap-20 gap-10 lg:px-20 py-20 min-h-[calc(100vh-180px)] align-middle justify-center items-center">
       <div className="flex flex-col lg:w-2/3">
         <div className="flex flex-row items-end gap-5 ">
@@ -69,6 +70,9 @@ function About() {
         <h4 className="pb-5 dark:text-primary-100 text-primary-800">Skills</h4>
         <table class="font-caSpotnik w-96 text-2xl pr-2 dark:text-primary-100 text-primary-800">
           <tbody className="text-sm ">
+            // Table of skills - map skills.json to Skills component // Could
+            add more to this, like split into sections and add design skills too
+            (check skills.json)
             {skills.map((skill) => {
               return (
                 <Skills

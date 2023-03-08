@@ -4,6 +4,7 @@ import Switcher from "./Switcher";
 
 function NavTabs() {
   return (
+    // Height 100px - important to keep so that body size stays full height (body height is 100vh - header height - footer height)
     <div className="bg-alt-200 dark:bg-alt-900 flex flex-row justify-between items-center pl-10 pr-10 pt-5 pb-5 h-[100px]">
       <div className="grid items-center">
         <h2 className="self-center lg:pr-10 pr-5 text-xl text-primary-700 dark:text-primary-300">

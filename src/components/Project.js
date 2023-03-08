@@ -8,8 +8,8 @@ function Project(props) {
           src={props.image}
           alt={props.imageAlt}
           aria-label={props.ariaLabel}
-          onMouseEnter={props.onMouseEnter}
-          onMouseLeave={props.onMouseLeave}
+          onMouseEnter={props.onMouseEnter} // Change .png to .gif
+          onMouseLeave={props.onMouseLeave} // Change back
           className=""
         />
       </a>
