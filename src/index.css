@@ -1,16 +1,3 @@
-/* Load custom fonts */
-@font-face {
-  font-family: "ExensaGrotesk-Black";
-  src: url("./assets/font/ExensaGrotesk-Black.otf");
-}
-@font-face {
-  font-family: "ExensaGrotesk-Bold";
-  src: url("./assets/font/ExensaGrotesk-Bold.otf");
-}
-@font-face {
-  font-family: "ExensaGrotesk-Regular";
-  src: url("./assets/font/ExensaGrotesk-Regular.otf");
-}
 @font-face {
   font-family: "retro-chimps";
   src: url("./assets/font/retro-chimps.otf");
