@@ -7,8 +7,6 @@
 
 My personal portfolio, with a few words on me, examples of previous projects, and contact info.
 
-I used React to create the site...
-
 ![](./src/assets/images/screenshots/about.png)
 
 It features a dark mode, which saves user preference to local storage.
