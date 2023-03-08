@@ -19,6 +19,7 @@ import greatPlaceImage from "../assets/images/great-place-north-belfast.jpg";
 import greatPlaceGif from "../assets/images/great-place-north-belfast.gif";
 import proparamedicsImage from "../assets/images/proparamedics.jpg";
 import proparamedicsGif from "../assets/images/proparamedics.gif";
+import grainImage from "../assets/images/dissolve-noise-texture.png";
 
 const images = {
   "the-court-house": courthouseImage,
@@ -47,38 +48,44 @@ function Projects() {
   const [hovered, setHovered] = useState(previousWork.map(() => false));
 
   return (
-    <div className="flex flex-col items-center p-5 ">
-      <h1 className="text-primary-900 dark:text-primary-100 pt-10 fluid-3xl">
-        Past Projects
-      </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-5 gap-5 lg:gap-8">
-        {previousWork.map((work) => {
-          return (
-            <Project
-              key={work.id}
-              title={work.title}
-              description={work.description}
-              // Change image to gif when hovering
-              image={hovered[work.id] ? gif[work.image] : images[work.image]}
-              imageAlt={work.imageAlt}
-              ariaLabel={work.ariaLabel}
-              areas={work.areas}
-              link={work.link}
-              onMouseEnter={() =>
-                setHovered((prevHovered) =>
-                  prevHovered.map((h, i) => (i === work.id ? true : h))
-                )
-              }
-              onMouseLeave={() =>
-                setHovered((prevHovered) =>
-                  prevHovered.map((h, i) => (i === work.id ? false : h))
-                )
-              }
-            />
-          );
-        })}
+    <>
+      <div
+        className="absolute inset-0 hero-after"
+        style={{ backgroundImage: `url(${grainImage})` }}
+      ></div>
+      <div className="flex flex-col items-center p-5 ">
+        <h1 className="text-primary-900 dark:text-primary-100 pt-10 fluid-3xl">
+          Past Projects
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-5 gap-5 lg:gap-8">
+          {previousWork.map((work) => {
+            return (
+              <Project
+                key={work.id}
+                title={work.title}
+                description={work.description}
+                // Change image to gif when hovering
+                image={hovered[work.id] ? gif[work.image] : images[work.image]}
+                imageAlt={work.imageAlt}
+                ariaLabel={work.ariaLabel}
+                areas={work.areas}
+                link={work.link}
+                onMouseEnter={() =>
+                  setHovered((prevHovered) =>
+                    prevHovered.map((h, i) => (i === work.id ? true : h))
+                  )
+                }
+                onMouseLeave={() =>
+                  setHovered((prevHovered) =>
+                    prevHovered.map((h, i) => (i === work.id ? false : h))
+                  )
+                }
+              />
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 
