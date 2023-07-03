@@ -5,8 +5,8 @@ import courthouseImage from "../assets/images/the-court-house.jpg";
 import courthouseGif from "../assets/images/the-court-house.gif";
 import openhousepresentsImage from "../assets/images/open-house-presents.jpg";
 import openhousepresentsGif from "../assets/images/open-house-presents.gif";
-import openhousefestivalImage from "../assets/images/open-house-festival.jpg";
-import openhousefestivalGif from "../assets/images/open-house-festival.gif";
+import openhousefestivalImage from "../assets/images/open-house-festival-23.jpg";
+import openhousefestivalGif from "../assets/images/open-house-festival-23.gif";
 import riedImage from "../assets/images/ried.jpg";
 import riedGif from "../assets/images/ried.gif";
 import guillemotImage from "../assets/images/the-guillemot.jpg";
@@ -17,31 +17,31 @@ import maryAnnImage from "../assets/images/mary-ann-mccracken.jpg";
 import maryAnnGif from "../assets/images/mary-ann-mccracken.gif";
 import greatPlaceImage from "../assets/images/great-place-north-belfast.jpg";
 import greatPlaceGif from "../assets/images/great-place-north-belfast.gif";
-import proparamedicsImage from "../assets/images/proparamedics.jpg";
-import proparamedicsGif from "../assets/images/proparamedics.gif";
+import DLDFundImage from "../assets/images/DLD-Fund.jpg";
+import DLDFundGif from "../assets/images/DLD-Fund.gif";
 import grainImage from "../assets/images/dissolve-noise-texture.png";
 
 const images = {
   "the-court-house": courthouseImage,
   "open-house-presents": openhousepresentsImage,
-  "open-house-festival": openhousefestivalImage,
+  "open-house-festival-23": openhousefestivalImage,
   ried: riedImage,
   "the-guillemot": guillemotImage,
   "morning-glory": morningGloryImage,
   "mary-ann-mccracken": maryAnnImage,
   "great-place-north-belfast": greatPlaceImage,
-  proparamedics: proparamedicsImage,
+  "DLD-fund": DLDFundImage,
 };
 const gif = {
   "the-court-house": courthouseGif,
   "open-house-presents": openhousepresentsGif,
-  "open-house-festival": openhousefestivalGif,
+  "open-house-festival-23": openhousefestivalGif,
   ried: riedGif,
   "the-guillemot": guillemotGif,
   "morning-glory": morningGloryGif,
   "mary-ann-mccracken": maryAnnGif,
   "great-place-north-belfast": greatPlaceGif,
-  proparamedics: proparamedicsGif,
+  "DLD-fund": DLDFundGif,
 };
 
 function Projects() {

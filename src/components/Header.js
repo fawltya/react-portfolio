@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Switcher from "./Switcher";
-import CV from "../assets/Seamus Barnett Web Dev CV March.pdf";
+import CV from "../assets/Seamus Barnett Web Dev CV June 2023.pdf";
 
 function NavTabs() {
   return (

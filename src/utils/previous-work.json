@@ -16,7 +16,7 @@
       "id": 2,
       "title": "Open House Festival",
       "image":
-        "open-house-festival",
+        "open-house-festival-23",
       "imageAlt":
         "Open House Festival website",
       "ariaLabel":
@@ -27,16 +27,16 @@
     },
     {
       "id": 3,
-      "title": "Open House Presents",
+      "title": "DLD Fund",
       "image":
-        "open-house-presents",
+        "DLD-fund",
       "imageAlt":
-        "Open House Presents website",
+        "DLD Fund website",
       "ariaLabel":
-        "Image of the Open House Presents website, which shows cards of upcoming events",  
-      "description": "Simple events listing with custom calendar",
-      "areas": "Website, Graphic Design",
-      "link": "https://openhousepresents.com"
+        "Image of the DLD Fund website, which shows an image of a young man with Downs Syndrome working and text",  
+      "description": "A charitable fund for young engineers",
+      "areas": "Logo, brand styles and website",
+      "link": "https://dldfund.com"
     },
     {
       "id": 4,
@@ -105,16 +105,16 @@
     },
     {
       "id": 9,
-      "title": "Proparamedics",
+      "title": "Open House Presents",
       "image":
-        "proparamedics",
+        "open-house-presents",
       "imageAlt":
-        "Proparamedics website",
+        "Open House Presents website",
       "ariaLabel":
-        "Image of the Proparamedics website, which shows a Cathedral and text",  
-      "description": "Independent medical and ambulance service",
-      "areas": "Website with E-commerce & internal staff portal",
-      "link": "https://proparamedics.com"
+        "Image of the Open House Presents website, which shows cards of upcoming events",  
+      "description": "Simple events listing with custom calendar",
+      "areas": "Website, Graphic Design",
+      "link": "https://openhousepresents.com"
     }
 
   ]
