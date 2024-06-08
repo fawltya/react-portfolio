@@ -86,7 +86,7 @@ function Projects() {
           })}
         </div>
         <div>
-          <p>
+          <p className="text-primary-900 dark:text-primary-100">
             Plus many more...<Link to="/contact">Get in touch</Link> to discuss
             your project!
           </p>
