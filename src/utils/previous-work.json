@@ -1,122 +1,62 @@
 [
-    {
-      "id": 1,
-      "title": "The Court House",
-      "image":
-        "the-court-house",
-      "imageAlt":
-        "The Court House website",
-      "ariaLabel":
-        "Image of The Court House website, which shows a large Victorian building at night",  
-      "description": "Events based website with custom calendar",
-      "areas": "Website, Graphic Design, Brand Identity",
-      "link": "https://courthousebangor.com"
-    },
-    {
-      "id": 2,
-      "title": "Open House Festival",
-      "image":
-        "open-house-festival-23",
-      "imageAlt":
-        "Open House Festival website",
-      "ariaLabel":
-        "Image of the Open House Festival website",  
-      "description": "Music and arts Festival",
-      "areas": "Website, Graphic Design, Brand Identity",
-      "link": "https://openhousefestival.com"
-    },
-    {
-      "id": 3,
-      "title": "DLD Fund",
-      "image":
-        "DLD-fund",
-      "imageAlt":
-        "DLD Fund website",
-      "ariaLabel":
-        "Image of the DLD Fund website, which shows an image of a young man with Downs Syndrome working and text",  
-      "description": "A charitable fund for young engineers",
-      "areas": "Logo, brand styles and website",
-      "link": "https://dldfund.com"
-    },
-    {
-      "id": 4,
-      "title": "Re-Imagining Engineering Design",
-      "image":
-        "ried",
-      "imageAlt":
-        "Re-Imagining Engineering Design website",
-      "ariaLabel":
-        "Image of RIED website, which shows the Queen's University Belfast Lanyon building",  
-      "description": "University led engineering research project",
-      "areas": "Website, Graphic Design, Brand Identity",
-      "link": "https://riedesign.org"
-    },
-    {
-      "id": 5,
-      "title": "The Guillemot",
-      "image":
-        "the-guillemot",
-      "imageAlt":
-        "The Guillemot website",
-      "ariaLabel":
-        "Image of The Guillemot website, which shows some cards with food and people on",  
-      "description": "Gourmet cafe and restaurant with online sales",
-      "areas": "Website with E-commerce",
-      "link": "https://www.theguillemot.com"
-    },
-    {
-      "id": 6,
-      "title": "Morning Glory",
-      "image":
-        "morning-glory",
-      "imageAlt":
-        "Morning Glory website",
-      "ariaLabel":
-        "Image of the Morning Glory website, which shows a woman sprinkling granola",  
-      "description": "Handmade artisan granola e-commerce shop",
-      "areas": "Website with E-commerce",
-      "link": "https://www.morninggloryco.uk"
-    },
-    {
-      "id": 7,
-      "title": "Mary Ann McCracken",
-      "image":
-        "mary-ann-mccracken",
-      "imageAlt":
-        "Mary Ann McCracken website",
-      "ariaLabel":
-        "Image of the Mary Ann McCracken website, which shows a bust of Mary Ann McCracken",  
-      "description": "Charitable historical organisation",
-      "areas": "Website with custom map",
-      "link": "https://maryannmccrackenfoundation.org"
-    },
-    {
-      "id": 8,
-      "title": "Great Place North Belfast",
-      "image":
-        "great-place-north-belfast",
-      "imageAlt":
-        "Great Place North Belfast website",
-      "ariaLabel":
-        "Image of the Great Place North Belfast website, which shows a Cathedral and text",  
-      "description": "Charitable historical organisation",
-      "areas": "Website with deep relational custom posts",
-      "link": "https://greatplacenorthbelfast.com"
-    },
-    {
-      "id": 9,
-      "title": "Open House Presents",
-      "image":
-        "open-house-presents",
-      "imageAlt":
-        "Open House Presents website",
-      "ariaLabel":
-        "Image of the Open House Presents website, which shows cards of upcoming events",  
-      "description": "Simple events listing with custom calendar",
-      "areas": "Website, Graphic Design",
-      "link": "https://openhousepresents.com"
-    }
-
-  ]
-  
-
+  {
+    "id": 1,
+    "title": "The Court House",
+    "image": "the-court-house",
+    "imageAlt": "The Court House website",
+    "ariaLabel": "Image of The Court House website, which shows a large Victorian building at night",
+    "description": "Events based website with custom calendar",
+    "areas": "Website, Graphic Design, Brand Identity",
+    "link": "https://courthousebangor.com"
+  },
+  {
+    "id": 2,
+    "title": "Re-Imagining Engineering Design",
+    "image": "ried",
+    "imageAlt": "Re-Imagining Engineering Design website",
+    "ariaLabel": "Image of RIED website, which shows the Queen's University Belfast Lanyon building",
+    "description": "University led engineering research project",
+    "areas": "Website, Graphic Design, Brand Identity",
+    "link": "https://riedesign.org"
+  },
+  {
+    "id": 3,
+    "title": "DLD Fund",
+    "image": "DLD-fund",
+    "imageAlt": "DLD Fund website",
+    "ariaLabel": "Image of the DLD Fund website, which shows an image of a young man with Downs Syndrome working and text",
+    "description": "A charitable fund for young engineers",
+    "areas": "Logo, brand styles and website",
+    "link": "https://dldfund.com"
+  },
+  {
+    "id": 4,
+    "title": "The Guillemot",
+    "image": "the-guillemot",
+    "imageAlt": "The Guillemot website",
+    "ariaLabel": "Image of The Guillemot website, which shows some cards with food and people on",
+    "description": "Gourmet cafe and restaurant with online sales",
+    "areas": "Website with E-commerce",
+    "link": "https://www.theguillemot.com"
+  },
+  {
+    "id": 5,
+    "title": "Great Place North Belfast",
+    "image": "great-place-north-belfast",
+    "imageAlt": "Great Place North Belfast website",
+    "ariaLabel": "Image of the Great Place North Belfast website, which shows a Cathedral and text",
+    "description": "Charitable historical organisation",
+    "areas": "Website with deep relational custom posts",
+    "link": "https://greatplacenorthbelfast.com"
+  },
+  {
+    "id": 6,
+    "title": "Open House Presents",
+    "image": "open-house-presents",
+    "imageAlt": "Open House Presents website",
+    "ariaLabel": "Image of the Open House Presents website, which shows cards of upcoming events",
+    "description": "Simple events listing with custom calendar",
+    "areas": "Website, Graphic Design",
+    "link": "https://openhousepresents.com"
+  }
+]

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Project from "../components/Project";
 import previousWork from "../utils/previous-work.json";
 import courthouseImage from "../assets/images/the-court-house.jpg";
@@ -83,6 +84,12 @@ function Projects() {
               />
             );
           })}
+        </div>
+        <div>
+          <p>
+            Plus many more...<Link to="/contact">Get in touch</Link> to discuss
+            your project!
+          </p>
         </div>
       </div>
     </>
