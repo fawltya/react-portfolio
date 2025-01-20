@@ -42,29 +42,30 @@ function About() {
           </div>
           <div className="flex flex-col  dark:text-primary-200 text-primary-700">
             <p>
-              I started designing websites in 2018, working in-house for the
-              amazing{" "}
+              I've been building websites professionally since 2017, creating
+              dynamic and highly functional sites for a wide range of clients,
+              such as the brilliant
               <a href="https://courthousebangor.com" target="_blank">
-                Open House Festival/The Court House
-              </a>{" "}
-              who gave me the time and resources to learn. I still work for them
-              on their website, as well as graphic design, marketing and digital
-              development.
+                Open House Festival / The Court House
+              </a>
+              .
             </p>
             <br />
             <p>
-              When covid-19 hit I took on some freelance clients and started
-              <strong> Design Barn</strong>, specialising in dynamic Wordpress
-              websites. I've been lucky to work on a wide range of projects and
-              I'm very grateful to the companies that trusted me to build their
-              sites.
+              I've been able to stand out in the developer crowd by having a
+              keen eye for design and UI/UX, having worked as graphic designer
+              previously, and I often help clients with branding and website
+              design.
             </p>
             <br />
             <p>
-              Recently I've become interested in expanding my programming
-              language knowledge, studying Javascript, React, Node + more on a
-              front-end web dev course with EdX.
+              Primarily though I'm a coder, specialising in Front-end
+              development and with a tech stack centered around JavaScript. My
+              design background has helped me especially proficient with CSS
+              (and Tailwind), and able to create modern animations and
+              interactions using GSAP.
             </p>
+            <br />
             <a href="mailto:designbarn.co.uk" className="w-fit ">
               <button className="font-caSpotnikBold w-fit my-5 px-4 py-2 bg-secondary-500 hover:bg-secondary-400 text-secondary-100 rounded-lg hover:bg-navy-600 transition-all duration-300 ease-out">
                 Say hello!

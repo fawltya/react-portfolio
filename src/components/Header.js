@@ -27,7 +27,7 @@ function NavTabs() {
               Contact Me
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <a
               className="fluid-sm md:fluid-base"
               href={CV}
@@ -37,7 +37,7 @@ function NavTabs() {
                 Resume
               </button>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
       <Switcher />
